@@ -15,16 +15,15 @@ User.where(id: 1).first_or_initialize.tap do |user|
 end
 
 Introduction.where(id: 1).first_or_initialize.tap do |introduction|
-	introduction.title = 'Welcome to Concierge'
+	introduction.title = 'Welcome To Concierge'
 	introduction.subtitle = 'Consulting and Accounting, PLLC'
 	introduction.post_title = 'Concierge Consulting and Accounting, PLLC is a premier consulting and accounting firm in Scottsdale, Arizona.'
 	introduction.description = 'We are a different type of consulting and accounting firm. Think of us as your personal business Concierge.
 					We offer highly personalized services and are passionate about our clients, their needs and their successes./n
 					We specialize in an extremely proactive and personal approach to all our accounting and consulting engagements.
-					We offer our clients one-on-one attention on an as needed basis. It can be as often as daily and at a minimum we
-					recommend monthly for optimal success in reaching your business goals. With Concierge Consulting and Accounting,
+					We offer our clients one-on-one attention on an as needed basis. With Concierge Consulting and Accounting,
 					PLLC you will obtain the benefit of a strong financial team with leading experts in a plethora of industries at
-					your disposal and on your timeline./n
+					your disposal and on your timeline.
 					We promise you the highest quality service that you deserve. We are here to help guide you in financial decisions,
 					offer insight and advice, deeper analysis into your business and goals.'
 	introduction.save
